@@ -45,11 +45,15 @@ body {
 }
 
 
-
 .ul1 .li1, .li2, .li3, i{
     font-size: 1.7rem;
     color: snow;
     font-family: 'Montserrat', sans-serif;
+}
+
+.li2 {
+    text-decoration: line-through;
+    color: darkgray;
 }
 
 .dropdown-content {
