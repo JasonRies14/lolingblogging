@@ -34,7 +34,6 @@ body {
 
 .ul1 {
     margin: 0 0 0 auto;
-    padding-right: 1rem;
 }
 
 
@@ -136,8 +135,10 @@ body {
     }
 
     .ul1 {
-        margin: 0;
-        padding-right: 1rem;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 1rem;
+        justify-content: center;
     }
 
     .span-for-header {
