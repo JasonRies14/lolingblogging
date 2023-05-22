@@ -100,6 +100,7 @@ body {
 }
 
 /* ----------------------------------------------- */
+
 .nav-menu-div .li1, a {
     list-style: none;
     color: snow;
@@ -271,4 +272,18 @@ body {
     .nav-menu {
         top: 5rem;
     }
+}
+
+#main {
+    border: 1px solid rgb(44, 178, 255);
+    margin: 2rem 4rem;
+    height: 80vh;
+    border-radius: 1rem;
+}
+
+.divfeatured {
+    border: 1px solid rgb(44, 178, 255);
+    margin: 2rem 4rem;
+    height: 70vh;
+    border-radius: 1rem;
 }
