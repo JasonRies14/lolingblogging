@@ -245,6 +245,10 @@ body {
         display: flex;
         justify-content: center;
     }
+
+    .nav-menu {
+        top: 5rem;
+    }
 }
 
 /* 481px — 768px: iPads, Tablets */
