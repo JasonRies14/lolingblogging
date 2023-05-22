@@ -40,14 +40,17 @@ body {
 
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
+        transition: all 0.5s ease-in-out;
     }
 
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(405deg);
+        transition: all 0.5s ease-in-out;
     }
 
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-405deg);
+        transition: all 0.5s ease-in-out;
     }
 
     .nav-menu {
@@ -127,6 +130,8 @@ body {
 
 .nav-item1, .nav-item2, .nav-item3, .nav-item4 {
     list-style: none;
+    width: 17rem;
+    margin: 0 auto;
 }
 
 .li1 {
