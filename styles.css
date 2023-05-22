@@ -75,9 +75,9 @@ body {
         justify-content: unset;
     }
 
-    .nav-item{
-        padding: 1rem 0;
-        margin: 2rem 0;
+    .nav-item1, .nav-item2, .nav-item3, .nav-item4{
+        margin: 2rem;
+        padding: 2rem;
     }
 
     .nav-menu.active {
@@ -106,7 +106,7 @@ body {
     color: snow;
 }
 
-.nav-link1, .nav-link12, .nav-link3 {
+.nav-link1, .nav-link2, .nav-link3 {
     text-decoration: none;
 }
 
@@ -115,11 +115,11 @@ body {
     text-decoration: none;
 }
 
-.nav-item a {
+.nav-item1 a {
     font-size: 1.7rem;
 }
 
-.nav-item {
+.nav-item1, .nav-item2, .nav-item3, .nav-item4 {
     list-style: none;
 }
 
@@ -157,10 +157,8 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 10px whitesmoke;
     margin: 2.2rem auto;
-    transition: 1s ease-in-out;
-    width: 10rem;
+    width: 15rem;
     padding: 2rem;
-    backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 1);
 }
 
@@ -173,14 +171,17 @@ body {
 
 .dropdown-content #email {
     text-shadow: rgb(0, 255, 85) 0 0 20px;
+    margin: 1rem;
 }
 
 .dropdown-content #twitter {
     text-shadow: rgb(0, 174, 255) 0 0 20px;
+    margin: 1rem;
 }
 
 .dropdown-content #instagram {
     text-shadow: rgb(247, 0, 255) 0 0 20px;
+    margin: 1rem;
 }
 
 .li1:hover .dropdown-content {
@@ -243,10 +244,6 @@ body {
     .search-container {
         display: flex;
         justify-content: center;
-    }
-
-    .nav-menu {
-        
     }
 }
 
